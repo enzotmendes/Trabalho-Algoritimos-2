@@ -105,7 +105,7 @@ void desenhaMapa(int m[LINHAS][COLUNAS], int x, int y,
                             break;
                         case PAREDE_F:
                             setCor(COR_PAREDE_F);
-                            cout << char(178) << " ";
+                            cout << char(178) << char(178);
                             break;
                         case BOMBA_CELL:
                             setCor(COR_BOMBA);
